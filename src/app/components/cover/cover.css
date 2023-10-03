@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    margin: 50px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainImage {
+    margin: 50px 50px 50px 50px;
+}
+
+/*.headerTitle {
+    color: white;
+}*/
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.loginContainer {
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.usernameField {
+    font-weight: 100;
+}
+
+.infoContainer {
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+    color: white;
+}
+
+.infoText {
+    padding: 5px;
+    color: white;
+}
+
+.infoTitle {
+    font-weight: 500;
+    color: white;
+}
+
+.infoSubTitle {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.infoAdvice {
+    color: black;
+    background-color: rgb(254, 223, 80);
+    font-weight: lighter;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: italic;
+}
