@@ -7,40 +7,51 @@ export default function Home() {
 
         <header className='headerStyle'>
             <div className='mainImage'>
-                <img src='/images/completeZP_black.jpeg' width={'100%'}/>
+                <img src='/images/ZPcomplete_white.png' width={'100%'}/>
             </div>
-            {/* <h1 className='headerTitle'>Análise Fundamentalista</h1> DEFINIR SE HAVERÁ TÍTULO*/}
         </header>
 
     
             
         <section>
-            <div className='loginContainer'>
-                <form action='' method='post'>
-                    <div>
-                        <label for="username">Nome de Usuário:</label>
-                        <input type="text" id="username" name="username" required/>
-                    </div>
-
-                    <div>
-                        <label for="password">Senha:</label>
-                        <input type="password" id="password" name="password" required/>
-                    </div>
-
-                    <div>
-                        <input type="submit" value="Entrar"/>
-                    </div>
-                </form>
-                
-            </div>
 
             <div className='infoContainer'>
                 <div className='infoText'>
                     <h1 className='infoTitle'>Análise Fundamentalista</h1>
-                    <h2 className='infoSubTitle'>Busque as respostas para as perguntas certas 
-                e você estará mais seguro para tomar decisões.</h2>
-                    <h3 className='infoAdvice'>Preencha somente os campos em amarelo. Bom estudo!</h3>
+                    <h2 className='infoSubTitle'>Busque as respostas para estas perguntas 
+                    e você estará mais seguro para tomar decisões.</h2>
                 </div>
+            </div>
+
+            <div className='loginContainer'>
+                <form className='formContainer' action='' method='post'>LOGIN
+                    <div className='username'>
+                        <label className='usernameTitle' for="username"></label>
+                        <input className='usernameField' type="text" id="username" 
+                            name="username" placeholder="usuário" required/>
+                    </div>
+
+                    <div className='password'>
+                        <label className='passwordTitle' for="password"></label>
+                        <input className='passwordField' type="password" id="password" 
+                            name="password" placeholder="senha" required/>
+                    </div>
+
+                    <div className='startAccounts'>
+                        <h6 className='forgotPassword'>Esqueci a senha</h6>
+                        <h6 className='register'>Nova conta</h6>
+                    </div>
+
+                    <div >
+                        <input className='loginBtn' type="submit" value="Entrar"/>
+                    </div>
+
+                    <div className='signUpOthers'>
+                        <h6>Acesse com</h6>
+
+                    </div>
+                </form>
+                
             </div>
 
         </section>

@@ -1,0 +1,37 @@
+:root {
+
+    /*Colors*/
+    --first-color: black;
+    --second-color: white;
+    --third-color: #fab403;
+
+    /*Font-size*/
+    --main-font: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --line-height: 1.5;
+    --font-weight: 400;
+    --font-xs: .75em; /* 12px - .75em */
+    --font-s: 1.125em; /* 18px - 1.125em */
+    --font-m: 1.5em; /* 24px - 1.5em */
+    --font-l: 1.875em; /* 30px - 1.875em */
+    --font-xl: 2.25em; /* 36px - 2.25em */
+    --font-xxl: 3.375em; /* 54px - 3.375em */
+
+    /*Font-weight*/
+    --light: 100;
+    --regular: 200;
+    --bold: 500;
+    --xbold: 700;
+    --xxbold: 900;
+
+    /*Section borders*/
+    --padding-size-h: 2rem;
+    --padding-size-v: 4rem; 
+
+    /*Others optimizing config*/
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+  
+
+}
