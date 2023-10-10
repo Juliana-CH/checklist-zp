@@ -1,0 +1,220 @@
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    margin: 30px;
+    text-align: center;
+}
+
+.mainImage {
+    height: auto;
+    width: 50%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.loginContainer {
+    display: block;
+    width: 40%;
+    height: auto;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.username {
+    margin: 5px;
+}
+
+.usernameField {
+    font-weight: 100;
+    margin: 10px;
+    width: 75%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.password {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.passwordField {
+    font-weight: 100;
+    margin: 10px;
+    width: 75%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.startAccounts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 1px;
+}
+
+.forgotPassword {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.register {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.infoContainer {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.infoText {
+    padding: 5px;
+}
+
+.infoTitle {
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.infoSubTitle {
+    font-size: 14px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.loginBtn {
+    width: 50%;
+    height: auto;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    background-color: rgb(253, 238, 104);
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.orBoarder {
+    margin-top: 10px;
+    border-top: 1px solid black;
+    width: 50%;
+    align-items: center;
+}
+
+.orWord {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.signUpWithContainer {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.signUpWithGoogleContainer {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.signUpWithGoogle {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.signUpWithGoogle {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px 3px 10px;
+    align-items: center;
+    color: black;
+    font-weight: lighter;
+    background-color: rgb(220, 220, 220);
+    width: 45%;
+    border-radius: 5px;
+    height: auto;
+    margin-bottom: 2px;
+}
+
+.logoGoogle {
+    width: 20px;
+    height: 20px;
+}
+
+.signUpWithWeb3Container {
+    display: flex;
+    justify-content: center;
+}
+
+.signUpWithWeb3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px 3px 10px;
+    align-items: center;
+    color: black;
+    font-weight: lighter;
+    background-color: rgb(220, 220, 220);
+    width: 45%;
+    border-radius: 5px;
+    height: auto;
+    margin-top: 3px;
+}
+
+.logoWeb3 {
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    color: white;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.insta {
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.linkedin {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.twitter {
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.copy {
+    color: white;
+    font-weight: lighter;
+}
