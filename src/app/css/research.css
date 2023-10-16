@@ -1,0 +1,33 @@
+.sectionForm {
+    margin: 30px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.topLogo {
+    margin: 20px;
+    text-align: center;
+}
+
+.sectionTitle {
+    font-size: large;
+}
+
+.questionTitle {
+    font-size: small;
+}
+
+.writtenAnswer {
+    width: 100%;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #fffd90;
+}
+
+.writtenOneLineAnswer {
+    width: 100%;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #fffd90;
+}
+
+.containerBtn {
+    text-align: end;
+}

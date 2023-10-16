@@ -1,5 +1,5 @@
 import React from 'react';
-import "./frontpage.css";
+import "../app/css/frontpage.css";
 
 export default function Home() {
 

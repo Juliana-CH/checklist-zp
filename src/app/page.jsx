@@ -1,12 +1,10 @@
 import React from 'react';
-import FrontPage from './pages/frontpage/FrontPage';
-import Idea from './pages/idea/Idea';
+import FrontPage from '../pages/FrontPage';
 
-export default function Home() {
+export default function Home(Idea) {
   return (
    <>
     <FrontPage />
-    <Idea />
    </>
   )
 }
