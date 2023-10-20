@@ -1,19 +1,48 @@
-.sectionForm {
-    margin: 30px;
-    font-family:'Courier New', Courier, monospace;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 80px;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
 }
 
 .topLogo {
-    margin: 20px;
     text-align: center;
 }
 
+.containerBtn {
+    display: flex;
+    margin:40px;
+}
+
+button {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.sectionForm {
+    margin: 40px;
+    font-family:'Courier New', Courier, monospace;
+}
+
 .sectionTitle {
+    margin-top: 30px;
     font-size: large;
 }
 
-.questionTitle {
+.firstSectionTitle {
+    margin-top: 100px;
+    font-size: large;
+}
+
+.questionTitle, .multipleAnswerPotentialPrice1, 
+.multipleAnswerPotentialPrice2, .multipleAnswerPotentialPrice3 {
     font-size: small;
+    font-weight: lighter;
 }
 
 .writtenAnswer {
@@ -26,8 +55,22 @@
     width: 100%;
     font-family:'Courier New', Courier, monospace;
     background-color: #fffd90;
+    height: 1em;
+}
+
+#answerField28 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
 }
 
 .containerBtn {
     text-align: end;
 }
+
+.multipleAnswer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
