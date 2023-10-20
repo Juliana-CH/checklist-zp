@@ -109,7 +109,7 @@ body {
     background-color: rgb(253, 238, 104);
     font-family:'Courier New', Courier, monospace;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .orBoarder {
@@ -217,4 +217,10 @@ a {
 .copy {
     color: white;
     font-weight: lighter;
+}
+
+.temporary {
+    font-size: 2px;
+    color: grey;
+    margin-bottom: 0;
 }

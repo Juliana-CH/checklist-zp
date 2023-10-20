@@ -41,8 +41,10 @@ export default function Home() {
                         <h6 className='register'><a href=''>Nova conta</a></h6>
                     </div>
 
-                    <div >
-                        <input className='loginBtn' type="submit" value="ENTRAR"/>
+                    <div>
+                        <div>
+                        <a className='temporary' href='Research'>Análise</a></div>
+                        <input className='loginBtn' type="button" value="ENTRAR"/>
                     </div>
 
                     <div>

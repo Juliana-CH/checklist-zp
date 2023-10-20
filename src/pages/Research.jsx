@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import '../app/css/research.css';
 
+
 export default function Research() {
   useEffect(() => {
     // Função para ajustar a altura do textarea
@@ -50,12 +51,13 @@ export default function Research() {
       // Adicione ouvintes de evento para os campos de entrada de price1 e price2
       document.getElementById('answerField26').addEventListener('input', updatePrice3);
       document.getElementById('answerField27').addEventListener('input', updatePrice3);
+
     });
 
 
   return (
     <>
-    <header className='headerContainer'>
+    <header className='headerContainer' id='Research'>
       <div className='topLogo'>
         <img src='/images/ZPcomplete_black.png' width={'30%'} />
       </div>
@@ -341,64 +343,63 @@ export default function Research() {
 
     <section className='sectionForm'>
 
-<h1 className='sectionTitle'>TOKEN</h1>
+      <h1 className='sectionTitle'>TOKEN</h1>
 
-<div className='question'>
-  <h2 className='questionTitle'>
-    1 - Como está a disitribuição? 
-    Quantos endereços possuem o token? Quanto % (+-) dos tokens possuem as 100 maiores carteiras?
-  </h2>
-  <textarea className='writtenAnswer' type="text" id='answerField7' />
-</div>
+      <div className='question'>
+        <h2 className='questionTitle'>
+          1 - Como está a disitribuição? 
+          Quantos endereços possuem o token? Quanto % (+-) dos tokens possuem as 100 maiores carteiras?
+        </h2>
+        <textarea className='writtenAnswer' type="text" id='answerField7' />
+      </div>
 
-<div className='question'>
-  <h2 className='questionTitle'>
-    2 - Qual é a situação dos tokens que faltam ser emitidos? Quanto % falta? 
-    Como vai ser essa distribuição até o final de 2025? (token.unlocks.app ou messari.com)
-  </h2>
-  <textarea className='writtenAnswer' type="text" id='answerField8' />
-</div>
+      <div className='question'>
+        <h2 className='questionTitle'>
+          2 - Qual é a situação dos tokens que faltam ser emitidos? Quanto % falta? 
+          Como vai ser essa distribuição até o final de 2025? (token.unlocks.app ou messari.com)
+        </h2>
+        <textarea className='writtenAnswer' type="text" id='answerField8' />
+      </div>
 
-<div className='question'>
-  <h2 className='questionTitle'>
-    3 - Existe algum mecanismo de queima/deflação? 
-    Se sim, como funciona e qual seu impacto no total em circulação?
-  </h2>
-  <textarea className='writtenAnswer' type="text" id='answerField9' />
-</div>
+      <div className='question'>
+        <h2 className='questionTitle'>
+          3 - Existe algum mecanismo de queima/deflação? 
+          Se sim, como funciona e qual seu impacto no total em circulação?
+        </h2>
+        <textarea className='writtenAnswer' type="text" id='answerField9' />
+      </div>
 
-<div className='question'>
-  <h2 className='questionTitle'>
-    4 - Existe mecanismos que tiram tokens de circulação, de fato? Se sim, quais são eles?
-  </h2>
-  <textarea className='writtenAnswer' type="text" id='answerField10' />
-</div>
+      <div className='question'>
+        <h2 className='questionTitle'>
+          4 - Existe mecanismos que tiram tokens de circulação, de fato? Se sim, quais são eles?
+        </h2>
+        <textarea className='writtenAnswer' type="text" id='answerField10' />
+      </div>
 
-<div className='question'>
-  <h2 className='questionTitle'>
-    5 - Quais as utilidades do token? São benéficas para a aplicação? Justifique a sua opinião.
-  </h2>
-  <textarea className='writtenAnswer' type="text" id='answerField11' />
-</div>
+      <div className='question'>
+        <h2 className='questionTitle'>
+          5 - Quais as utilidades do token? São benéficas para a aplicação? Justifique a sua opinião.
+        </h2>
+        <textarea className='writtenAnswer' type="text" id='answerField11' />
+      </div>
 
-<div className='question'>
-  <h2 className='questionTitle'>
-    6 - A demanda pelo token tende a aumentar à medida que a aplicação cresce? 
-    Qual a relação de uma coisa com a outra? 
-  </h2>
-  <textarea className='writtenAnswer' type="text" id='answerField12' />
-</div>
+      <div className='question'>
+        <h2 className='questionTitle'>
+          6 - A demanda pelo token tende a aumentar à medida que a aplicação cresce? 
+          Qual a relação de uma coisa com a outra? 
+        </h2>
+        <textarea className='writtenAnswer' type="text" id='answerField12' />
+      </div>
 
-<div className='question'>
-  <h2 className='questionTitle'>
-    7 - O tokenomics é benéfico aos hodlers? Tem papel de governança? 
-    Se sim, a governança é relevante de verdade? Dá direito aos resultados financeiros da aplicação? Se sim, como? 
-  </h2>
-  <textarea className='writtenAnswer' type="text" id='answerField13' />
-</div>
+      <div className='question'>
+        <h2 className='questionTitle'>
+          7 - O tokenomics é benéfico aos hodlers? Tem papel de governança? 
+          Se sim, a governança é relevante de verdade? Dá direito aos resultados financeiros da aplicação? Se sim, como? 
+        </h2>
+        <textarea className='writtenAnswer' type="text" id='answerField13' />
+      </div>
 
-</section>
-
+    </section>
 
 
 </>
